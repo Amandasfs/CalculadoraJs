@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main class="corpoDoProjeto">
+            <div class="card">
+                <div class="card-conteudo">
+                    <h2>Calculadora</h2>
+                    <div class="inputs">
+                        <p>Adicione o 1º valor:<input type="text" class="entrada" id="valorUm"></P>
+                        <P>Adicione o 2° valor:<input type="text" class="entrada" id="valorDois"></P>
+                        <p>Escolha a operação:</p>   
+                            <div class="op">
+                                <input type="radio" class="operador" id="soma"/>+<br />
+                                <input type="radio" class="operador"  id="subtracao"/>-<br />
+                                <input type="radio" class="operador"  id="multiplicacao"/>*<br />
+                                <input type="radio" class="operador" " id="divisao"/>/<br />
+                           </div> 
+                            <P>Resultado: <div id="resp"></div></P>
+                        <button type="button" id="limpar">Limpar</button>
+                        <button onclick="calcular()">Calcular</button>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <script src="./Assets/Js/script.js"></script>
+</body>
+</html>

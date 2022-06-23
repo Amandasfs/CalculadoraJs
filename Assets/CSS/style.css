@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Cute+Font&family=Delius&family=Delius+Swash+Caps&family=Fascinate&family=Lobster&family=Montserrat:wght@100&family=Pacifico&family=Palette+Mosaic&family=Plus+Jakarta+Sans:ital,wght@1,500&family=Roboto+Slab:wght@100;500&family=Rubik+Moonrocks&family=Shrikhand&family=Source+Code+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Cute+Font&family=Delius&family=Delius+Swash+Caps&family=Fascinate&family=Indie+Flower&family=Lobster&family=Montserrat:wght@100&family=Pacifico&family=Palette+Mosaic&family=Playfair+Display&family=Plus+Jakarta+Sans:ital,wght@1,500&family=Roboto+Slab:wght@100;500&family=Rubik+Moonrocks&family=Shrikhand&family=Source+Code+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Cute+Font&family=Delius&family=Delius+Swash+Caps&family=Fascinate&family=Lobster&family=Montserrat:wght@100&family=Pacifico&family=Palette+Mosaic&family=Playfair+Display&family=Plus+Jakarta+Sans:ital,wght@1,500&family=Roboto+Slab:wght@100;500&family=Rubik+Moonrocks&family=Shrikhand&family=Source+Code+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Cute+Font&family=Delius&family=Delius+Swash+Caps&family=Fascinate&family=Indie+Flower&family=Lobster&family=Montserrat:wght@100&family=Pacifico&family=Palette+Mosaic&family=Playfair+Display&family=Plus+Jakarta+Sans:ital,wght@1,500&family=Roboto+Slab:wght@100;500&family=Rubik+Moonrocks&family=Secular+One&family=Shrikhand&family=Source+Code+Pro:wght@700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+/*Corpo calculadora*/
+.corpoDoProjeto
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(-35deg, #E8EAF6, #C5CAE9, #9FA8DA, #7986CB,#5C6BC0);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E8EAF6;
+    border-radius: 15%;
+    width: 80vh;
+    height: 80vh;
+    transition: .5s cubic-bezier(0.55, 0.025, 0.675, 0.97);
+}
+.card:hover
+{
+    border: 1px solid #303F9F;
+    width: 90vh;
+    height: 90vh;
+}
+.card-conteudo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button
+{   
+    margin-left: 5px;
+    font-size: 15px;
+    color: #303F9F;
+    text-transform: uppercase;
+    font-family: 'Secular One', sans-serif;
+    border: 1px solid #303F9F;
+    background-color: transparent;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transition: .5s cubic-bezier(0.55, 0.025, 0.675, 0.97);
+}
+button:hover
+{
+    font-size: 20px;
+    height: 50px;
+    width: 110px;
+    color: #7986CB;
+    border: 1px solid #7986CB ;
+    background-color: #9FA8DA;
+    box-shadow: #303F9F;
+    
+}
+.entrada
+{
+    color: #1A237E;
+    border: 1px solid #1A237E;
+    background-color: transparent;
+    border-radius: 10px;
+    height: 20px;
+    width: 200px;
+    font-size: 14px;
+    font-family: 'Secular One', sans-serif;
+    margin-left: 2px;
+    align-items: center;
+}
+.op
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #1A237E;
+    border-radius: 10px;
+    height: 20px;
+    width: 200px;
+    letter-spacing: 20px;
+    font-family: 'Secular One', sans-serif;
+    color: #303F9F;
+}
+h2
+{
+    color:#303F9F;
+    font-size: 45px;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+p
+{
+    color: #303F9F;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+}
