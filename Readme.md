@@ -13,11 +13,11 @@
 
 <h1 align="center">🤍 Créditos do projeto | Credits of project 🤍</h1>
 
-<p>💜Site para editar os videos | Website to edit videos: https://clideo.com/pt</p>
+<a href="https://clideo.com/pt"><p>💜Site para editar os videos | Website to edit videos:</p></a>
 
-<p>💜Layout referência da calculadora | Calculator reference layout: https://dribbble.com/shots/6597055-DailyUI-004-Calculator?utm_source=pinterest&utm_campaign=pinterest_shot&utm_content=DailyUI+004+-+Calculator&utm_medium=Social_Share</p>
+<a href="https://dribbble.com/shots/6597055-DailyUI-004-Calculator?utm_source=pinterest&utm_campaign=pinterest_shot&utm_content=DailyUI+004+-+Calculator&utm_medium=Social_Share"><p>💜Layout referência da calculadora | Calculator reference layout: </p></a>
 
-<p>💜Link do curso | Course link: https://www.youtube.com/watch?v=KCfaPZ2t2yA</p>
+<a href="https://www.youtube.com/watch?v=KCfaPZ2t2yA"><p>💜Link do curso | Course link:</p></a>
 
 <h1 align="center">🤍 Projeto | Project 🤍</h1>
 
